@@ -9,3 +9,6 @@
 3. JavaScript
 
 ## Notes
+
+-made responsive
+-added a navigation button for mobile view

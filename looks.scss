@@ -1,0 +1,147 @@
+$color_1: #48f50a;
+$color_2: #f51414;
+$color_3: #4897fd;
+$color_4: #9812f6;
+$color_5: rgb(122, 122, 122);
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: "Great Vibes", sacramento, satisfy, "Dancing Script";
+$background-color_1: rgba(61, 59, 64, 0.76);
+$background-color_2: rgba(209, 205, 213, 0.76);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family_1;
+}
+header {
+  background-image: url("images/ALL/190a441_d0868495687c4ad8b27e2084aa3d9e35_mv2.webp");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  height: 150px;
+  width: 100%;
+}
+nav {
+  background-color: $background-color_1;
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 2;
+  ul {
+    float: right;
+    li {
+      padding: 20px 15px;
+      display: inline-block;
+    }
+  }
+}
+li {
+  a {
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.89);
+    text-decoration: none;
+  }
+}
+ul {
+  li {
+    &:hover {
+      background-color: $background-color_2;
+    }
+    &:active {
+      position: relative;
+      top: 2px;
+    }
+  }
+}
+.xyline {
+  margin: 5px 0;
+  padding: 0.2rem;
+  h1 {
+    font-family: $font-family_2;
+    margin: 10px 0;
+    font-size: 50px;
+    text-shadow: -5px 1px 3px rgba(0, 0, 0, 0.56);
+  }
+  h4 {
+    margin-bottom: 20px;
+  }
+}
+hr {
+  width: 50%;
+  margin: 10px 0;
+}
+#sel1 {
+  color: $color_1;
+}
+#sel2 {
+  color: $color_2;
+}
+#sel3 {
+  color: $color_3;
+}
+#sel4 {
+  color: $color_4;
+}
+#sel5 {
+  color: $color_5;
+}
+.info {
+  width: 500px;
+}
+footer {
+  background-image: url("images/ALL/290a441_d5d5735ee93845a69865f1c906170c1b_mv2.webp");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 250px;
+}
+#fupper {
+  height: 75%;
+}
+#funder {
+  height: 25%;
+  background-color: $background-color_1;
+  z-index: 1;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+.star {
+  background-color: $background-color_2;
+}
+
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    header {
+      height: 48px;
+      nav {
+        position: relative;
+      }
+    }
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+    main {
+      margin-top: 10px;
+    }
+  }
+}
