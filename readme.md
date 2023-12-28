@@ -7,6 +7,7 @@
 2. CSS
    - SASS
 3. JavaScript
+   -jQuery
 
 ## Notes
 
