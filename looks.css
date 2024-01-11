@@ -118,6 +118,10 @@ footer {
   background-color: rgba(209, 205, 213, 0.76);
 }
 
+.mySlides {
+  width: 100%;
+}
+
 @media only screen and (max-width: 500px) {
   body header {
     height: 48px;

@@ -15,3 +15,4 @@
 -added a navigation button for mobile view
 -fixed nav
 -consolidated all pages
+-converted the images to jpg
