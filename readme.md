@@ -13,3 +13,5 @@
 
 -made responsive
 -added a navigation button for mobile view
+-fixed nav
+-consolidated all pages
