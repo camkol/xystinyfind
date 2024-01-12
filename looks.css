@@ -118,6 +118,10 @@ footer {
   background-color: rgba(209, 205, 213, 0.76);
 }
 
+.slideshow-container {
+  height: 360px;
+}
+
 .mySlides {
   display: none;
   width: 100%;

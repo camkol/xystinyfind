@@ -17,3 +17,5 @@
 -consolidated all pages
 -converted the images to jpg
 -trying to fix slideshow
+-Stored old files
+-I may go another route with the slideshow due to lack of knowledge
