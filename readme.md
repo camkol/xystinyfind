@@ -16,3 +16,4 @@
 -fixed nav
 -consolidated all pages
 -converted the images to jpg
+-trying to fix slideshow
