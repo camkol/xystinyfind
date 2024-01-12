@@ -126,15 +126,15 @@ footer {
   background-color: $background-color_2;
 }
 .slideshow-container {
-  height: 360px;
-}
-.mySlides {
-  display: none;
-  width: 100%;
-  img {
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+  height: 500px;
+
+  //max-width: 500px;
+  .mySlides {
+    height: 100%;
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
 
