@@ -21,3 +21,4 @@
 -I may go another route with the slideshow due to lack of knowledge
 -Come to find out I did have the knowledge and fixed the slideshow
 -added prcoess.md
+-removed prcoess.md
