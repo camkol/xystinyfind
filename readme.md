@@ -24,3 +24,4 @@
 - removed prcoess.md
 - installed background effects
 - installed gallery effects
+- gallery failed and installed a simpler model
