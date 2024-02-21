@@ -23,3 +23,4 @@
 - added prcoess.md
 - removed prcoess.md
 - installed background effects
+- installed gallery effects
