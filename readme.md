@@ -25,3 +25,4 @@
 - installed background effects
 - installed gallery effects
 - gallery failed and installed a simpler model
+- improved gallery with size
