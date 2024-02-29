@@ -28,3 +28,4 @@
 - improved gallery with size
 - made attempt with jquery animation for section titles
 - failed, so I made a simple glow animation for now
+- created site head icon
