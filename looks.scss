@@ -718,3 +718,28 @@ img.mfp-img {
     width: 100%;
   }
 }
+
+//===Text glow====
+@keyframes glower {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff,
+      0 0 10px #fff;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff,
+      0 0 20px #fff;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff,
+      0 0 10px #fff;
+  }
+}
+
+.container {
+  .xyline {
+    .BGColored {
+      animation: glower 5s infinite;
+    }
+  }
+}
