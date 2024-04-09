@@ -50,7 +50,6 @@ Users should be able to:
 - Mobile-Responsive Design
 - JavaScript - Scripting language
 - [jQuery](https://jquery.com/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Photoshop](https://www.adobe.com/products/photoshop.html) - Image editor
 
 ### What I learned
