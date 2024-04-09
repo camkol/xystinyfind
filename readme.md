@@ -56,13 +56,9 @@ Users should be able to:
 
 This was my first project that I did on my own. Updated it as I learning more lessons and techniques.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 Will continue to improve it to from gained knowledge and client's request.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
