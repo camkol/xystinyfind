@@ -90,9 +90,27 @@ ul li {
 
 #two,
 #three,
-#five,
-#six {
+#four,
+#five {
   height: 100vh;
+}
+
+#photoPara {
+  width: 100%;
+  display: flex;
+  .magnific-img {
+    width: 50%;
+  }
+  .info {
+    width: 50%;
+    padding: 0 1rem;
+  }
+}
+
+#showOffs {
+  .magnific-img {
+    width: 12rem;
+  }
 }
 
 footer {
@@ -193,8 +211,10 @@ footer {
 .containerBot {
   width: 80%;
   margin: 0 auto;
-
+  height: 60vh;
+  overflow: scroll;
   .img-gallery-magnific {
+    width: 100%;
   }
 
   a {

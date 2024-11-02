@@ -63,9 +63,25 @@ ul li:active {
 
 #two,
 #three,
-#five,
-#six {
+#four,
+#five {
   height: 100vh;
+}
+
+#photoPara {
+  width: 100%;
+  display: flex;
+}
+#photoPara .magnific-img {
+  width: 50%;
+}
+#photoPara .info {
+  width: 50%;
+  padding: 0 1rem;
+}
+
+#showOffs .magnific-img {
+  width: 12rem;
 }
 
 footer {
@@ -151,6 +167,11 @@ footer #funder {
 .containerBot {
   width: 80%;
   margin: 0 auto;
+  height: 60vh;
+  overflow: scroll;
+}
+.containerBot .img-gallery-magnific {
+  width: 100%;
 }
 .containerBot a {
   outline: 0 !important;
