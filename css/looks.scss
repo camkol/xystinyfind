@@ -92,10 +92,11 @@ ul li {
   width: 100%;
   display: flex;
   .magnific-img {
-    width: 50%;
+    width: 40%;
+    // max-height: 10vh;
   }
   .info {
-    width: 50%;
+    width: 60%;
     padding-left: 1rem;
   }
 }

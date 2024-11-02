@@ -66,10 +66,10 @@ ul li:active {
   display: flex;
 }
 #photoPara .magnific-img {
-  width: 50%;
+  width: 40%;
 }
 #photoPara .info {
-  width: 50%;
+  width: 60%;
   padding-left: 1rem;
 }
 
