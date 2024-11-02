@@ -77,11 +77,26 @@ ul li:active {
 }
 #photoPara .info {
   width: 50%;
-  padding: 0 1rem;
+  padding-left: 1rem;
 }
 
-#showOffs .magnific-img {
+#wordShows {
+  display: flex;
+}
+#wordShows .info {
+  width: 40%;
+  padding-right: 1rem;
+}
+#wordShows #showOffs {
+  width: 60%;
+}
+#wordShows #showOffs .magnific-img {
   width: 12rem;
+  height: 12rem;
+}
+#wordShows #showOffs .magnific-img img {
+  height: 100%;
+  width: auto;
 }
 
 footer {
