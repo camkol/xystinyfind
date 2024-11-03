@@ -82,6 +82,9 @@ ul li:active {
 }
 #wordShows #showOffs {
   width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #wordShows #showOffs .magnific-img {
   width: 12rem;
@@ -200,9 +203,6 @@ footer #funder {
   #wordShows #showOffs {
     width: 100%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
   #wordShows #showOffs .magnific-img {
     width: 10rem;

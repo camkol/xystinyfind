@@ -109,6 +109,9 @@ ul li {
   }
   #showOffs {
     width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     .magnific-img {
       width: 12rem;
       height: 12rem;
@@ -236,9 +239,7 @@ footer {
     #showOffs {
       width: 100%;
       margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+
       .magnific-img {
         width: 10rem;
         height: 10rem;
