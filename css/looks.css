@@ -163,12 +163,23 @@ footer #funder {
 @media only screen and (max-width: 699px) {
   body header {
     height: 48px;
+    width: 100%;
   }
   body header .desktop {
     display: none;
   }
   body main {
     margin-top: 10px;
+  }
+  body main .container {
+    padding: 0;
+  }
+  body main .container .xyline {
+    width: 100%;
+    padding-left: 0.5rem;
+  }
+  body main .container p {
+    padding: 0 1rem;
   }
   #photoPara {
     display: block;
@@ -188,6 +199,14 @@ footer #funder {
   }
   #wordShows #showOffs {
     width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #wordShows #showOffs .magnific-img {
+    width: 10rem;
+    height: 10rem;
   }
   #wordShows #showOffs .magnific-img img {
     width: 100%;

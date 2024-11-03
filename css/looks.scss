@@ -196,7 +196,7 @@ footer {
   body {
     header {
       height: 48px;
-
+      width: 100%;
       .desktop {
         display: none;
       }
@@ -204,6 +204,16 @@ footer {
 
     main {
       margin-top: 10px;
+      .container {
+        padding: 0;
+        .xyline {
+          width: 100%;
+          padding-left: 0.5rem;
+        }
+        p {
+          padding: 0 1rem;
+        }
+      }
     }
   }
 
@@ -225,7 +235,13 @@ footer {
     }
     #showOffs {
       width: 100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       .magnific-img {
+        width: 10rem;
+        height: 10rem;
         img {
           width: 100%;
           object-fit: cover;
