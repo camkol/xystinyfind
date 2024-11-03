@@ -163,6 +163,14 @@ footer #funder {
     height: 100vh;
   }
 }
+@media only screen and (max-width: 500px) {
+  .containerBot .img-gallery-magnific {
+    display: block;
+  }
+  .containerBot .img-gallery-magnific .magnific-img {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 699px) {
   body header {
     height: 48px;
