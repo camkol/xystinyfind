@@ -50,25 +50,65 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#two"><h4>Home Sweet Home</h4></a>
+              <a
+                class="nav-link"
+                href="#two"
+                data-bs-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                ><h4>Home Sweet Home</h4></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#three"><h4>One-of-a-Kind</h4></a>
+              <a
+                class="nav-link"
+                href="#three"
+                data-bs-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                ><h4>One-of-a-Kind</h4></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#four"><h4>Hand Made Treasures</h4></a>
+              <a
+                class="nav-link"
+                href="#four"
+                data-bs-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                ><h4>Hand Made Treasures</h4></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#five"><h4>About us</h4></a>
+              <a
+                class="nav-link"
+                href="#five"
+                data-bs-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                ><h4>About us</h4></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#six"><h4>Contact Us</h4></a>
+              <a
+                class="nav-link"
+                href="#six"
+                data-bs-toggle="collapse"
+                data-target=".navbar-collapse.show"
+                ><h4>Contact Us</h4></a
+              >
             </li>
           </ul>
         </div>
       </nav>
       <div class="clear"></div>
     </header>
+    <script>
+      document.addEventListener("click", (event) => {
+        if (event.target.matches(".nav-link")) {
+          const navbarCollapse = document.querySelector(".navbar-collapse");
+          if (navbarCollapse.classList.contains("show")) {
+            navbarCollapse.classList.remove("show");
+          }
+        }
+      });
+    </script>
     <main>
       <section class="container" id="two" data-color="#10e88a">
         <div class="xyline">
