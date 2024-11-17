@@ -817,6 +817,8 @@ img.mfp-img {
         }
         .navbar-nav {
           .nav-item {
+            border-radius: 1rem;
+            transition: all 0.5s;
             .nav-link {
               text-shadow: 2px 2px 9px rgba(0, 0, 0, 1);
               color: #ffffff;
